@@ -1,9 +1,10 @@
 using UnityEngine;
 
-public class CollisionHandler : MonoBehaviour // ✅ Changed class name
+public class CollisionHandler : MonoBehaviour 
 {
-    void OnCollisionEnter(Collision collision) // Now correctly refers to Unity's Collision type
+    void OnCollisionEnter(Collision collision) 
     {
         Debug.Log("Collision detected with: " + collision.gameObject.name);
+        GetComponent<MeshRenderer>().material.color = Color.red;
     }
 }
