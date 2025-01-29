@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\new-repo\\Assembly-CSharp.csproj": {}
+    "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\Assembly-CSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\new-repo\\Assembly-CSharp.csproj": {
+    "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\Assembly-CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\new-repo\\Assembly-CSharp.csproj",
+        "projectUniqueName": "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\Assembly-CSharp.csproj",
         "projectName": "Assembly-CSharp",
-        "projectPath": "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\new-repo\\Assembly-CSharp.csproj",
+        "projectPath": "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\Assembly-CSharp.csproj",
         "packagesPath": "C:\\Users\\vansh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\new-repo\\Temp\\obj\\Debug\\Assembly-CSharp\\",
+        "outputPath": "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\Temp\\obj\\Debug\\Assembly-CSharp\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vansh\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\new-repo\\Assembly-CSharp-Editor.csproj",
+      "projectUniqueName": "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\Assembly-CSharp-Editor.csproj",
       "projectName": "Assembly-CSharp-Editor",
-      "projectPath": "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\new-repo\\Assembly-CSharp-Editor.csproj",
+      "projectPath": "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\Assembly-CSharp-Editor.csproj",
       "packagesPath": "C:\\Users\\vansh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\new-repo\\Temp\\obj\\Debug\\Assembly-CSharp-Editor\\",
+      "outputPath": "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\Temp\\obj\\Debug\\Assembly-CSharp-Editor\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vansh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\new-repo\\Assembly-CSharp.csproj": {
-              "projectPath": "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\new-repo\\Assembly-CSharp.csproj"
+            "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\Assembly-CSharp.csproj": {
+              "projectPath": "C:\\Users\\vansh\\Documents\\Unity\\DashyDash\\Assembly-CSharp.csproj"
             }
           }
         }
