@@ -131,8 +131,8 @@ GameObject:
   - component: {fileID: 2637987}
   - component: {fileID: 2637986}
   - component: {fileID: 2637985}
-  - component: {fileID: 2637984}
   - component: {fileID: 2637989}
+  - component: {fileID: 2637984}
   m_Layer: 0
   m_Name: Dashy
   m_TagString: Untagged
@@ -397,6 +397,7 @@ GameObject:
   - component: {fileID: 210625167}
   - component: {fileID: 210625166}
   - component: {fileID: 210625165}
+  - component: {fileID: 210625169}
   m_Layer: 0
   m_Name: Border_Wall
   m_TagString: Untagged
@@ -493,6 +494,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1617675102}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &210625169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210625164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7610d966d226084887ba9340cae4f6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &212703731
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,6 +518,7 @@ GameObject:
   - component: {fileID: 212703734}
   - component: {fileID: 212703733}
   - component: {fileID: 212703732}
+  - component: {fileID: 212703736}
   m_Layer: 0
   m_Name: Border_Wal2
   m_TagString: Untagged
@@ -601,6 +615,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1617675102}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &212703736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 212703731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7610d966d226084887ba9340cae4f6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &247226445
 GameObject:
   m_ObjectHideFlags: 0
@@ -1232,6 +1258,7 @@ GameObject:
   - component: {fileID: 488745199}
   - component: {fileID: 488745198}
   - component: {fileID: 488745197}
+  - component: {fileID: 488745201}
   m_Layer: 0
   m_Name: Obstacle_4
   m_TagString: Untagged
@@ -1328,6 +1355,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1499279100}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &488745201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488745196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7610d966d226084887ba9340cae4f6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &531350446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1719,6 +1758,7 @@ GameObject:
   - component: {fileID: 839375366}
   - component: {fileID: 839375365}
   - component: {fileID: 839375364}
+  - component: {fileID: 839375368}
   m_Layer: 0
   m_Name: Obstacle_2
   m_TagString: Untagged
@@ -1815,6 +1855,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1499279100}
   m_LocalEulerAnglesHint: {x: 0, y: -119.4, z: 0}
+--- !u!114 &839375368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839375363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7610d966d226084887ba9340cae4f6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &877965547
 GameObject:
   m_ObjectHideFlags: 0
@@ -2046,6 +2098,7 @@ GameObject:
   - component: {fileID: 1049651587}
   - component: {fileID: 1049651586}
   - component: {fileID: 1049651585}
+  - component: {fileID: 1049651589}
   m_Layer: 0
   m_Name: Border_Wall1
   m_TagString: Untagged
@@ -2142,6 +2195,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1617675102}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1049651589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049651584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7610d966d226084887ba9340cae4f6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1271414881
 GameObject:
   m_ObjectHideFlags: 0
@@ -2154,6 +2219,7 @@ GameObject:
   - component: {fileID: 1271414884}
   - component: {fileID: 1271414883}
   - component: {fileID: 1271414882}
+  - component: {fileID: 1271414886}
   m_Layer: 0
   m_Name: Obstcale_3
   m_TagString: Untagged
@@ -2250,6 +2316,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1499279100}
   m_LocalEulerAnglesHint: {x: 0, y: -56.503, z: 0}
+--- !u!114 &1271414886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271414881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7610d966d226084887ba9340cae4f6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1288720308
 GameObject:
   m_ObjectHideFlags: 0
@@ -2262,6 +2340,7 @@ GameObject:
   - component: {fileID: 1288720311}
   - component: {fileID: 1288720310}
   - component: {fileID: 1288720309}
+  - component: {fileID: 1288720313}
   m_Layer: 0
   m_Name: Border_Walls3
   m_TagString: Untagged
@@ -2358,6 +2437,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1617675102}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1288720313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288720308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7610d966d226084887ba9340cae4f6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1347236782
 GameObject:
   m_ObjectHideFlags: 0
@@ -2477,6 +2568,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1499279100}
+  - component: {fileID: 1499279101}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Untagged
@@ -2503,6 +2595,18 @@ Transform:
   - {fileID: 1979786370}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1499279101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499279099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7610d966d226084887ba9340cae4f6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1501108589
 GameObject:
   m_ObjectHideFlags: 0
@@ -2731,6 +2835,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1617675102}
+  - component: {fileID: 1617675103}
   m_Layer: 0
   m_Name: Border_walls
   m_TagString: Untagged
@@ -2757,6 +2862,18 @@ Transform:
   - {fileID: 1288720312}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1617675103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617675101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7610d966d226084887ba9340cae4f6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1790466558
 GameObject:
   m_ObjectHideFlags: 0
@@ -3208,6 +3325,7 @@ GameObject:
   - component: {fileID: 1979786369}
   - component: {fileID: 1979786368}
   - component: {fileID: 1979786367}
+  - component: {fileID: 1979786371}
   m_Layer: 0
   m_Name: Obstacle_1
   m_TagString: Untagged
@@ -3304,6 +3422,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1499279100}
   m_LocalEulerAnglesHint: {x: 0, y: -90.113, z: 0}
+--- !u!114 &1979786371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979786366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7610d966d226084887ba9340cae4f6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1980492591
 GameObject:
   m_ObjectHideFlags: 0
