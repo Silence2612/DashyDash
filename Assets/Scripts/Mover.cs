@@ -6,6 +6,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        PrintInstruction();
     }
 
     // Update is called once per frame
@@ -17,5 +18,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
      float Z_value = Input.GetAxis("Vertical")*Time.deltaTime*MoveSpeed;
 
         transform.Translate(X_value , Y_value , Z_value );
+    }
+
+    void PrintInstruction(){
+        Debug.Log("Game Started...");
+        Debug.Log("Get to the finish line to win the game while avoiding the obstacles...");
     }
 }
