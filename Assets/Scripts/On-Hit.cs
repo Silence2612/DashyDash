@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class Collision : MonoBehaviour
+public class CollisionHandler : MonoBehaviour // ✅ Changed class name
 {
-    private void OnCollisionEnter(Collision other) 
+    void OnCollisionEnter(Collision collision) // Now correctly refers to Unity's Collision type
     {
-        Debug.Log("Something hit me!");
+        Debug.Log("Collision detected with: " + collision.gameObject.name);
     }
 }
