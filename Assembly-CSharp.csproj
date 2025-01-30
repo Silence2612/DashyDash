@@ -68,6 +68,8 @@
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\On-Hit.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
+    <Compile Include="Assets\Scripts\Spinner.cs" />
+    <Compile Include="Assets\Scripts\FlyAtPlayer.cs" />
     <Compile Include="Assets\Scripts\Mover.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
   </ItemGroup>
