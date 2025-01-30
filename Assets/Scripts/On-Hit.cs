@@ -2,9 +2,14 @@ using UnityEngine;
 
 public class CollisionHandler : MonoBehaviour 
 {
-    void OnCollisionEnter(Collision collision) 
+    bool HasBeenHit = false;
+    void OnCollisionEnter(Collision other) 
     {
-        Debug.Log("Collision detected with: " + collision.gameObject.name);
+        if(other.gameObject.tag == "Player")
+        {
+        HasBeenHit = true;
         GetComponent<MeshRenderer>().material.color = Color.red;
+        gameObject.tag = "Hit";
+        }
     }
 }

@@ -3,21 +3,28 @@ using System.Collections;
 
 public class Timer : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    [SerializeField] float WaitTime = 3.0f;
+
+    MeshRenderer MyMeshRenderer;
+    Rigidbody MyRigidBody;
     void Start()
     {
-        
+        MyMeshRenderer = GetComponent<MeshRenderer>();
+        MyRigidBody = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        float time = 3 - Time.time;
-        if(time>0){
-            Debug.Log("Dropping in " + time);
+        if(Time.time < WaitTime)
+        {
+            MyMeshRenderer.enabled = false;
+            MyRigidBody.useGravity = false;
         }
-        else{
-            Debug.Log("Look out");
+        else
+        {
+            MyMeshRenderer.enabled = true;
+            MyRigidBody.useGravity = true;
         }
     }
 }
