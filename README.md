@@ -10,6 +10,11 @@
 
 ## 🛠️ Built With  
 - **Unity** – Core game development.  
-- **C#** – Game logic and mechanics.  
+- **C#** – Game logic and mechanics.
+
+## 🎥 Gameplay Showcase  
+📽️ **Watch the game in action:** [Showcase Video](https://drive.google.com/drive/u/3/folders/1hySTg3eVbAZzB5jGNJdScNeCABJ-zM92)  
+
+---
 
 🚀 A fun, quick game—perfect for a short challenge!  
